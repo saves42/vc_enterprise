@@ -6,6 +6,21 @@
     padding: 0;
 }
 
+a {
+    color: black;
+}
+
+a:hover {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+body {
+    font-size: 22px;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+
 img {
     width: 50%;
     height: auto;
@@ -15,6 +30,15 @@ ul {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+}
+
+header {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
 }
 
 #mission {
@@ -31,23 +55,41 @@ ul {
     width: 100%;
     background-color: white;
     align-content: center;
+    padding: 20px 0;
 }
 
 #portfolio {
+    padding: 20px;
     
-    display: flex;
-    flex-direction: column;
 }
 
 .portfolio-container {
-    display: flex;
     
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.box {
+    width: auto;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    justify-content: center;
+    padding: 10px;
     
 }
 
-.box-1, .box-2, .box-3, .box-4, .box-5 {
-    display: flex;
-    align-items: center;
+.box img {
+    width: 200px;
+    height: auto;
+}
+
+.box span {
+  
 }
 
 .team-container {
@@ -55,14 +97,30 @@ ul {
     display: flex;
     color: white;
     justify-content: center;
+    padding: 10px 0;
 }
 
 .team-member {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+    
 }
 
-.team-member h3, .team-member p {
-    display: inline;
+.team-member img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
 }
+
+footer {
+    padding: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
