@@ -49,3 +49,20 @@ ul {
     display: flex;
     align-items: center;
 }
+
+.team-container {
+    background-image: url('/resources/images/blurred-road.jpg');
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-member h3, .team-member p {
+    display: inline;
+}
